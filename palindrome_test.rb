@@ -1,4 +1,4 @@
-require_relative "myruby"
+require_relative "palindrome"
 require "test/unit"
 
 class TestPalindrome < Test::Unit::TestCase
