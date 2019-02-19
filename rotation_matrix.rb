@@ -4,8 +4,8 @@ def rotation(matrix)
     return "Please input square matrix" unless m.size == matrix_size
   end
   new_matrix = []
-  matrix.size.times do
-    new_matrix << Array.new(matrix.size)
+  matrix_size.times do
+    new_matrix << Array.new(matrix_size)
   end
 
   (0..matrix_size - 1).each do |c|
